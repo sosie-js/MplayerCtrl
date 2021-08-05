@@ -86,8 +86,8 @@ import atexit
 import os
 from pprint import pformat
 
-__author__ = 'David Herberth'
-__version_info__ = (0, 3, 3)
+__author__ = 'David Herberth, SoSie (python3 port)'
+__version_info__ = (3, 3, 3)
 __version__ = '.'.join(map(str, __version_info__))
 __license__ = 'MIT'
 __all__ = ['EVT_MEDIA_FINISHED', 'EVT_MEDIA_STARTED', 'EVT_PROCESS_STARTED',
